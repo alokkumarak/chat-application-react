@@ -1,0 +1,28 @@
+.MuiSvgIcon-root {
+  color: rgb(134, 133, 133);
+}
+
+.headerbottom {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 29px;
+}
+.headerbottom__chat {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
+  color: rgb(34, 136, 100);
+  border-bottom: 3px solid rgb(34, 136, 100);
+}
+.headerbottom__add {
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-top: 5px;
+  color: rgb(134, 133, 133);
+  font-weight: bold;
+}
+.headerbottom__add:hover {
+  color: rgb(34, 136, 100);
+  border-bottom: 3px solid rgb(34, 136, 100);
+}

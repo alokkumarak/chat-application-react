@@ -1,0 +1,15 @@
+.headertop {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(134, 133, 133);
+}
+.MuiSvgIcon-root {
+  color: rgb(134, 133, 133);
+}
+.headertop > h2 {
+  margin-top: 2px;
+  margin-left: 30px;
+}
+.headertop__avatar {
+  padding: 5px;
+}

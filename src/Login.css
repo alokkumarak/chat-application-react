@@ -1,0 +1,28 @@
+.login {
+  background-color: #0f2831;
+
+  height: 100%;
+  width: 100%;
+  display: grid;
+  border-radius: 10px;
+  place-items: center;
+}
+.login__container {
+  margin-top: 130px;
+  height: 100%;
+  text-align: center;
+}
+.login__logo {
+  height: 100px;
+  object-fit: contain;
+}
+.login__container > .login__text {
+  margin-top: 300px;
+}
+.login__container > .login__text > Button {
+  color: rgb(252, 249, 249);
+  background-color: #1bac5f;
+}
+.login__container > .login__text > Button:hover {
+  background-color: #1bac5f;
+}

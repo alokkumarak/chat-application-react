@@ -1,0 +1,32 @@
+.sidebarchat {
+  color: white;
+  display: flex;
+
+  padding: 15px 10px 2px 10px;
+  width: 305px;
+}
+.sidebarchat:hover {
+  background-color: rgb(70, 68, 68);
+}
+.sidebarchat__in {
+  width: 100%;
+  border-bottom: 1px solid rgb(99, 96, 96);
+}
+.sidebarchat__info {
+  margin-left: 15px;
+}
+.sidebarchat__info > p {
+  font-size: 13px;
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(158, 156, 156);
+}
+
+.sidebarchat__info > h6 {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: rgb(226, 223, 223);
+}
+a {
+  text-decoration: none !important;
+  color: black;
+}
